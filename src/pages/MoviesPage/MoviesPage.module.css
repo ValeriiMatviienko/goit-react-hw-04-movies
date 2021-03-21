@@ -1,0 +1,31 @@
+.container {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto 30px;
+}
+
+.input {
+  padding: 0;
+  border: none;
+  line-height: 30px;
+  font-size: 25px;
+}
+
+.button {
+  padding: 0 9px;
+  background-color: #fe6348;
+  border: none;
+  border-radius: 50%;
+}
+
+.button:hover {
+  background-color: rgb(78, 5, 5);
+}
